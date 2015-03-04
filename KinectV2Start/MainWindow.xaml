@@ -1,0 +1,12 @@
+﻿<Window x:Class="KinectV2_Start.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinect图像帧获取" 
+        Height="409.173" Width="579.137"
+        Closing="MainWindow_Closing">
+    <Grid>
+        <Viewbox Grid.Row="1" HorizontalAlignment="Center">
+            <Image Source="{Binding ImageSource}" Stretch="UniformToFill" />   
+        </Viewbox>
+    </Grid>
+</Window>
